@@ -1,0 +1,168 @@
+<!DOCTYPE html lang="en">
+<html>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118991670-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-118991670-1');
+</script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="robots" content="noindex">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
+  <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+</head>
+
+<body>
+  <header class="header" id="home">
+    <nav class="nav">
+      <a href="#home" class="logo">S</a>
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#wordpress" class="nav__link">WordPress</a></li>
+        <li class="nav__item"><a href="#umbraco" class="nav__link">Umbraco</a></li>
+        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+
+    <div class="half">
+    <div class="left">
+      <h2 class="rubbery" data-splitting>Hi,</h2>
+      <h2 class="rubbery" data-splitting>I am</h2>
+      <h2 class="rubbery" data-splitting><span clss="ss">S</span>tacy,</h2>
+      <h2 class="rubbery" data-splitting>Front-End</h2>
+      <h2 class="rubbery" data-splitting>Developer.</h2>
+    </div>
+    <div class="right">
+      <h1 class="s3d">S</h1>
+    </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="sites">
+      <section class="wordpress" id="wordpress">
+        <h3 class='section_title color' data-splitting>WordPress</h3>
+        <h3 class='section_title color' data-splitting>Websites</h3>
+        <p>Here is a sampling of WordPress sites I have worked on.</p>
+        <div class="projects">
+          <div class="container">
+            <div class="monitor">
+              <img class="onScreen" src="images/ScreenshotINQUEblot.jpg" alt="screenshot of INQUEblot's website" />
+            </div>
+            <div class="stand1"></div>
+            <div class="stand2"></div>
+            <p>Danielle</p>
+          </div>
+          <div class="container">
+            <div class="monitor">
+              <img class="onScreen" src="images/ScreenshotTremontOhio.jpg" alt="screenshot of Experience Tremont's website" />
+            </div>
+            <div class="stand1"></div>
+            <div class="stand2"></div>
+            <p>Experience Tremont</p>
+          </div>
+          <div class="container">
+            <div class="monitor">
+              <img class="onScreen" src="images/ScreenshotElementsFitnessStudios.png" alt="screenshot of Elements Studios' website" />
+            </div>
+            <div class="stand1"></div>
+            <div class="stand2"></div>
+            <p>Elements Fitness Studios</p>
+          </div>
+          <div class="container">
+            <div class="monitor">
+              <img class="onScreen" src="images/ScreenshotPlantscapingBlooms.jpg" alt="screenshot of Plantscaping Blooms' website" />
+            </div>
+            <div class="stand1"></div>
+            <div class="stand2"></div>
+            <p>Plantscaping Blooms</p>
+          </div>
+          <div class="container">
+            <div class="monitor">
+              <img class="onScreen" src="images/Screenshot VideosTremontAthleticClub.jpg" alt="screenshot of Tremont Athletic Club's website" />
+            </div>
+            <div class="stand1"></div>
+            <div class="stand2"></div>
+            <p>Tremont Athletic Club</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="umbraco" id="umbraco">
+        <h3 class='section_title color' data-splitting>Umbraco</h3>
+        <h3 class='section_title color' data-splitting>Websites</h3>
+        <p>Here are 2 Umbraco sites I have worked on.</p>
+        <div class="projects">
+          <div class="container">
+            <div class="monitor">
+              <img class="onScreen" src="images/ScreenshotExpanko.png" alt="screenshot of Expanko's website" />
+            </div>
+            <div class="stand1"></div>
+            <div class="stand2"></div>
+            <p>Expanko</p>
+          </div>        
+          <div class="container">
+            <div class="monitor">
+              <img class="onScreen" src="images/ScreenshotFritztile.png" alt="screenshot of Fritztile's website" />
+            </div>
+            <div class="stand1"></div>
+            <div class="stand2"></div>
+            <p>Fritztile</p>
+          </div>
+          </div>
+        </section>
+    </div>
+
+
+    <div class="sites">    
+      <h3 class='section_title color' data-splitting>Contact Me</h3>
+      <div id="contact">
+        <form
+          action="https://formspree.io/xrganody"
+          method="POST">
+          <label for="fname">
+            First Name:
+              <input type="text" id="fname" autocomplete="fname" name="fname" />
+          </label>
+          <label for="lname">
+            Last Name:
+            <input type="text" id="lname" autocomplete="lname" name="lname" />
+          </label>
+          <label for="email">
+            Email:
+            <input type="text" name="_replyto">
+          </label>
+          <label>
+            Message:
+            <textarea name="message"></textarea>
+          </label>
+          <button type="submit" id="send">Send</button>
+        </form>
+      </div>
+  </div>
+  </main>
+  <footer>
+
+  </footer>
+  <script> Splitting(); </script>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
